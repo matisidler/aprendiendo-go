@@ -9,8 +9,7 @@ import (
 func main() {
 	go mi_nombre_lento("Matias")
 	fmt.Println("Esperando a que termine")
-	wait := ""
-	fmt.Scanln(&wait)
+
 }
 
 func mi_nombre_lento(name string) {
